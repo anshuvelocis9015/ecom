@@ -9,6 +9,16 @@
       "id": "2",
       "name": "Product B",
       "price": 30
+    },
+    {
+      "id": "4e87",
+      "name": "ddd",
+      "price": 34
+    },
+    {
+      "id": "6df1",
+      "name": "shirt",
+      "price": 50
     }
   ],
   "carts": [

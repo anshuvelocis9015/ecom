@@ -19,6 +19,11 @@
       "id": "6df1",
       "name": "shirt",
       "price": 50
+    },
+    {
+      "id": "2225",
+      "name": "dddd",
+      "price": 3
     }
   ],
   "carts": [
@@ -46,6 +51,21 @@
       "id": "1",
       "name": "Product A",
       "price": 20
+    },
+    {
+      "id": "1",
+      "name": "Product A",
+      "price": 20
+    },
+    {
+      "id": "2",
+      "name": "Product B",
+      "price": 30
+    },
+    {
+      "id": "6df1",
+      "name": "shirt",
+      "price": 50
     }
   ]
 }

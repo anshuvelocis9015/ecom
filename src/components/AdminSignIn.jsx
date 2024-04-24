@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import Dropdown from 'react-bootstrap/Dropdown';
 function AdminSignIn() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
   const handleSignIn = () => {
-    // Perform admin sign-in logic, e.g., authenticate user
     alert('Admin Sign In');
-    // Redirect to admin panel after successful sign-in
     navigate('/admin');
   };
 
@@ -27,6 +25,17 @@ function AdminSignIn() {
         </div>
         <button type="button" className="btn btn-primary" onClick={handleSignIn}>Sign In</button>
       </form>
+      <Dropdown>
+        <Dropdown.Toggle variant="success" id="dropdown-basic">
+          Dropdown Button
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
     </div>
   );
 }
